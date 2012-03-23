@@ -1,0 +1,50 @@
+/* FEEL FREE TO MODIFY THIS SO THAT IT MEETS YOUR OWN NEEDS :) SORRY I USED px's!! */
+
+pre.prettyprint {
+	background-color: #151717;
+	width: auto;
+	margin: 24px auto 0;
+	padding-left: 36px;
+	white-space: pre-wrap;
+}
+
+pre.prettyprint ol.linenums {
+	background: #33393a;
+	padding: 10px 0;
+	border-left: 1px solid rgba(255,255,255,.15);
+}
+
+pre.prettyprint ::selection, pre.prettyprint ::-moz-selection {
+	background: rgba(255,255,255,.1);
+	color: #d3d7cf;
+}
+
+pre.prettyprint ol.linenums li {
+	color: #888a85;
+	padding-left: 10px;
+	list-style: decimal outside;
+	position: relative;
+	left: 3px;
+	font: 12px/20px monospace;
+	text-shadow: 0 1px 1px rgba(0,0,0,.55);
+}
+
+pre.prettyprint ol.linenums li:hover {
+	background: rgba(255,255,255,.1);
+}
+
+pre.prettyprint span {
+	font: 14px/24px monospace;
+}
+
+pre.prettyprint span.str, code.prettyprint span.str { color: #edd400; } /* string - butter2 */
+pre.prettyprint span.kwd, code.prettyprint span.kwd { color: #fff; font-weight: bold; } /* keyword - white */
+pre.prettyprint span.com, code.prettyprint span.com { color: #888a85; } /* comment - aluminum4 */
+pre.prettyprint span.typ, code.prettyprint span.typ { color: #8ae234; font-weight: bold; } /* type - chameleon1 */
+pre.prettyprint span.lit, code.prettyprint span.lit { color: #edd400; } /* literal - butter2 */
+pre.prettyprint span.pun, code.prettyprint span.pun { color: #d3d7cf; } /* punctuation - aluminium2 */
+pre.prettyprint span.pln, code.prettyprint span.pln { color: #d3d7cf; } /* plaintext - aluminium2 */
+pre.prettyprint span.tag, code.prettyprint span.tag { color: #729fcf; } /* html/xml tag - skyblue1 */
+pre.prettyprint span.atn, code.prettyprint span.atn { color: #8ae234; font-weight: bold; } /* html/xml attribute name - chameleon1 */
+pre.prettyprint span.atv, code.prettyprint span.atv { color: #edd400; } /* html/xml attribute value - butter2 */
+pre.prettyprint span.dec, code.prettyprint span.dec { color: #ce5c00; } /* decimal - orange3 */
